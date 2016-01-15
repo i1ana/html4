@@ -4,7 +4,7 @@ body {
 	color: black;
 	font-size: 12px;
 	height: 100%;
-/*	width: 500px;*/
+	width: 500px;
 }
 
 .background {
@@ -15,33 +15,47 @@ body {
 	background-color: #2ecc71;
 	color: white;
 	font-weight: bold;
-	border-bottom: 2px solid #27ae60; 
+	box-shadow: 2px 0px #27ae60; 
+}
+/*---------NAV BAR-------------*/
+.navbar{
+	background-color: #34495e;	
 }
 
-.navbar{
-	text-align: right;
-	text-decoration: none; 
-	list-style-type: none;
-	background-color: #34495e;
-	border-bottom: 2px solid #2c3e50;
-	color: white;
-	text-decoration: none; 
+.navbar ul{
+	text-align: right; 
 }
 
 .navbar li { 
-	display: inline;
+	display: inline-block;
+	list-style-type: none;
+	padding-left: 5px; 
 }
 
-.section-title { 
+.navbar a {
+	color: white;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+/*--------HEADERS-----------*/
+
+.header-h3{ 
 border-bottom: 1px solid grey; 
 padding-bottom: 2px; 
-
 }
 
+.header-h2 { 
+font-size: 16px; 
+}
+
+/*-----------TABLE------------*/
 .table { 
+	border-collapse: collapse;
+}
+
+.table th, td {
 	border: 1px solid grey;
-	font-family: "Arial", sans-serif;
-	font-size: 12px;
 }
 
 .table-header { 
@@ -53,7 +67,7 @@ background-color: #bdc3c7
 	font-family: "Courier New", monospace; 
 
 }
-
+/*--------Buttons-----------*/
 .button {
 	background-color: #3498db;
 	text-decoration: none; 
@@ -61,10 +75,6 @@ background-color: #bdc3c7
 	color: white;
 }
 
-.code {
-	background-color: #7f8c8d;
-	font-family: 
-}
 
 .submit {
 	background-color: #c0392b;
@@ -75,7 +85,14 @@ background-color: #bdc3c7
 	padding: 1em;
 }
 
+.textbox {
+	display: block;
+	text-decoration: none;
+	width: ;
+	height: ; 
+
 }
+
 .rightbox{
 	float: right;
 	overflow: hidden; 
